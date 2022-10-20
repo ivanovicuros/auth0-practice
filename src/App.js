@@ -3,7 +3,14 @@ import React from 'react';
 function App() {
   return (
     <>
-      App Component
+      <form>
+        <label>
+          email:<input type="text" name="email" />
+        </label>
+        <label>
+          password:<input type="text" name="password" />
+        </label>
+      </form>
     </>
   );
 }
