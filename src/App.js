@@ -1,16 +1,15 @@
 import React from 'react';
+import LoginButton from './components/login';
+import LogoutButton from './components/logout';
+import UserProfile from './components/userProfile';
 
 function App() {
   return (
     <>
-      <form>
-        <label>
-          email:<input type="text" name="email" />
-        </label>
-        <label>
-          password:<input type="text" name="password" />
-        </label>
-      </form>
+      <LoginButton/>
+      <LogoutButton/>
+      <p>The user information</p>
+      <UserProfile/>
     </>
   );
 }
